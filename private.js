@@ -29,7 +29,7 @@ class Student extends Person {
     }
 
     canStudyArchery() {
-        return this.year > 1;
+        return this.#year > 1;
     }
 }
 
